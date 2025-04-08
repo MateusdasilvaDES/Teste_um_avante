@@ -6,6 +6,22 @@
     
 }
 
+html, body{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-y: auto;
+}
+
+.nav_bar{
+    
+    background-color: white;
+    box-shadow:  1px 1px rgb(216, 215, 215);
+    width: 100%;
+}
+
 .container_desconto{
 
     background-color: #005CFF;
@@ -88,7 +104,114 @@
 }
 
 .nome_cliente{
-    width: 23%;
+    width: 18%;
     padding-left: 12px;
     font-weight: 400;
+}
+
+.imagem_notificacao{
+
+    position: absolute;
+    margin-left: 200px;
+    margin-bottom: 16px;
+}
+
+.container_categorias{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    
+}
+
+.container_menu_todas_categorias{
+
+    display: flex;
+    width: 14%;
+    padding-right: 1%;
+    
+}
+
+.menu_hamburguer{
+
+   padding-right: 10px;
+   padding-left: 7%;
+}
+
+.text_todas{
+
+    font-weight:600;
+}
+
+.container_departamentos{
+
+    display: flex;
+    gap: 5.5%;
+}
+
+.text_departamento{
+
+    font-size: 16.6px;
+}
+
+.container_desconto_items{
+
+    background-color: rgb(234, 234, 234);
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_geral_super_off{
+    display: block;
+    width: 40%;
+}
+
+
+
+.container_super{
+
+    display: flex;
+    width: 100%;
+}
+
+.text_super{
+
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+
+.text_sale{
+    
+    font-size: 100px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.container_selecionados_off{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text_itens{
+
+   color: #005CFF;
+   font-weight: 400;
+   font-size: 30px;
+   border-radius: 15px;
+   letter-spacing: 6px; 
+   
+}
+
+.text_off{
+
+    color: #005CFF;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 27%;
 }
