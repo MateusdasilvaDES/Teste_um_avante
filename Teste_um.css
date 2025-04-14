@@ -178,7 +178,7 @@ html, body{
 .container_geral_super_off{
 
     display: block;
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -213,7 +213,7 @@ html, body{
 
 .imagem_cadeira{
 
-    width: 44.5%;
+    width: 40%;
     height: 100%;
 }
 
@@ -250,31 +250,264 @@ html, body{
   
 }
 
-.container_geral_lancamentos{
+.container_caneca_geral{
 
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-top: 2%;
-}
-.container_text_lancamentos{
-
-    width: 89%;
-    display: flex;
-    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 590px;
+    margin-top: 4%;
     
 }
 
-.text_lancamentos{
+.container_caneca_esquerda{
 
-    font-size: 100%;
-    font-weight: 600;
+    width: 55%;
+    height: 590px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
-.text_ver_mais{
-
-    padding-right: 1%;
+.container_img_caneca{
+    
+    display: flex;
+    background-color: #C2C2C2;
+    height: 590px;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
 }
 
+.imagem_caneca{
+
+    width: 90%;
+}
+
+
+.container_caneca_direita{
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.text_titulo_caneca{
+
+    padding-left: 4%;
+}
+
+.container_text_caneca{
+
+    width: 50%;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.container_geral_localizacao{
+
+    display: flex;
+    background-color: #DEDEDE;
+    margin-top: 4%;
+    height: 600px;
+}
+
+.container_esquerdo_localizacao{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_text_titulo_localizacao{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 18%;
+    color: #4F4F4F;
+}
+
+.container_text_localizacao{
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    padding-top: 5%;
+    
+    
+    
+}
+
+.container_localizacao_img{
+
+    background-color: #005CFF;
+    width: 5%;
+    border-radius: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text_localizacao{
+
+    width: 38%;
+    padding-left: 3%;
+}
+
+.imagem_localizacao{
+
+    width: 100%;
+
+}
+
+.container_direita_localizacao{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.imagem_segunda_caneca{
+
+    width: 60%;
+    padding-left: 8%;
+}
+
+.container_banner_fundo{
+
+    background-image: url('images/banner_avanti.svg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+.container_mensagem_banner{
+
+    background-color: #005CFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.container_text_cadastre-se{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_cadastre-se{
+
+    padding-top: 3%;
+
+}
+
+.text_newsletter{
+
+    color: #005CFF;
+    padding-left: 1%;
+    padding-top: 3%;
+    
+}
+
+.container_geral_cadastro{
+
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_cadastro{
+
+    width: 80%;
+    height: 160px;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_inputs_cadastro{
+
+  padding-right: 5%;
+  width: 20%;
+}
+.inputs_cadastro{
+
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 7%;
+    width: 100%;
+    
+}
+
+.inputs_cadastro::placeholder{
+
+   color: black;
+}
+
+.text_acordo{
+
+    padding-left: 0.5%;
+}
+
+.text_politica{
+
+    padding-left: 0.5%;
+}
+
+.container_button_cadastrar{
+
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+.input_check{
+
+    transform: scale(1.5);
+}
+
+.button_cadastrar{
+
+    padding: 12%;
+    width: 100%;
+    background-color: #005CFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer{
+
+    margin-top: 5%;
+    height: 300px;
+    background-color: #F5F5F5;
+}
