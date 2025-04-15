@@ -77,17 +77,36 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: end;
-    width: 60%;
+    width: 57%;
     gap: 8%;
 }
 
+.container_input_lupa{
+
+   width: 52%;
+   border: 1px solid;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 15px;
+   
+
+}
+
+.container_input_lupa:focus-within {
+
+    border-color: black;
+    border: 2px solid; /* Altere para a cor que quiser ao focar */
+ }
+
 .barra_pesquisa{
 
-    width: 55%;
+    width: 90%;
     border: 1px solid #b5b5b9;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 13px;
-    
+    border: none;
+    outline: none;
 }
 
 .barra_pesquisa::placeholder{
@@ -98,11 +117,18 @@ html, body{
     padding-left: 2%;
 }
 
+.container_lupa_pesquisa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
 .lupa_pesquisa{
 
-  
 
-  margin-right: 1%;
+  width: 42%;
 
 }
 
@@ -111,7 +137,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 43%;
 }
 
 .nome_cliente{
@@ -120,17 +146,26 @@ html, body{
     font-weight: 400;
 }
 
+.container_imgs_cn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagem_carinho{
     
-    padding-left: 2%;
+    width: 100%;
+    position: relative;
 }
 
 .imagem_notificacao{
 
-    
-    
-    margin-left: 13%;
-    margin-bottom: 1%;
+     width: 2.6%;
+     position: absolute;
+     padding-left: 1.5%;
+     padding-bottom: 1%;
+     
 }
 
 .container_categorias{
@@ -526,4 +561,6 @@ html, body{
     margin-top: 5%;
     height: 300px;
     background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-evenly
 }
